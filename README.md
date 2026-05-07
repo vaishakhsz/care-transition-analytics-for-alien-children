@@ -40,14 +40,52 @@ care-transition-analytics-for-alien-children/
 ├── requirements.txt
 └── README.md
 
+
 # 🚀 Running the Project
 
-This project can be executed using either:
-1. Google Colab
-2. Local Streamlit Environment
+This project can be executed using three different methods:
+
+1. Direct Streamlit Cloud Access (Easiest Method)
+2. Google Colab
+3. Local Streamlit Environment
 
 ==================================================
-☁️ METHOD 1 — RUNNING IN GOOGLE COLAB
+🌐 METHOD 1 — DIRECT STREAMLIT CLOUD ACCESS
+(EASIEST METHOD)
+==================================================
+
+Step 1 — Open the GitHub Repository
+
+Open the GitHub repository and click the Streamlit App link provided in the repository description or README file.
+
+Example:
+
+https://care-transition-analytics.streamlit.app
+
+--------------------------------------------------
+
+Step 2 — Access Dashboard
+
+The Streamlit dashboard will open directly in your browser.
+
+No installation or setup is required.
+
+--------------------------------------------------
+
+Step 3 — Explore Dashboard Features
+
+The dashboard includes:
+
+- Care Pipeline Visualization
+- Transfer Efficiency Analysis
+- Discharge Effectiveness Tracking
+- Peak Backlog Detection
+- Outcome Stability Monitoring
+- Weekday vs Weekend Analysis
+- Threshold-Based Alert System
+
+==================================================
+☁️ METHOD 2 — RUNNING IN GOOGLE COLAB
 ==================================================
 
 Step 1 — Upload Files
@@ -55,16 +93,16 @@ Step 1 — Upload Files
 Upload the following files into Google Colab:
 
 - app.py
-- Untitled.ipynb
-- HHS_Unaccompanied_Alien_Children_Program (1).csv
+- analysis.ipynb
+- healthcare uac (1).csv
 
 --------------------------------------------------
 
 Step 2 — Run the Notebook
 
-Open `Untitled.ipynb` and run all cells.
+Open `analysis.ipynb` and run all cells.
 
-The required dependencies are already installed inside the notebook code.
+The dependencies are already installed inside the notebook code.
 
 --------------------------------------------------
 
@@ -76,28 +114,21 @@ Execute:
 
 --------------------------------------------------
 
-Step 4 — Copy Paste IP into Localhost Link
+Step 4 — Open Dashboard
 
-After running the code, Streamlit generates output similar to:
+After execution, Streamlit automatically generates:
 
-Local URL: http://localhost:8501  
-Network URL: http://172.xx.xx.xx:8501
+- Local URL
+- Network URL
+- External URL
 
-Copy the generated IP address and paste it into the localhost link if required to access the Streamlit dashboard.
-
-Example:
-
-http://172.xx.xx.xx:8501
-
-Open the generated link in your browser to view the dashboard.
+Copy and paste the External URL into your browser to access the dashboard.
 
 ==================================================
-💻 METHOD 2 — RUNNING LOCALLY USING STREAMLIT
+💻 METHOD 3 — RUNNING LOCALLY USING STREAMLIT
 ==================================================
 
 Step 1 — Clone Repository
-
-Open terminal / command prompt and run:
 
 git clone https://github.com/your-username/care-transition-analytics.git
 
@@ -127,6 +158,16 @@ After execution, Streamlit automatically generates:
 
 http://localhost:8501
 
-Open the URL in your browser to access the dashboard.
+Copy and paste the localhost URL into your browser to access the dashboard.
+
+==================================================
+📦 requirements.txt
+==================================================
+
+streamlit
+pandas
+plotly
+numpy
+pyngrok
 
 
