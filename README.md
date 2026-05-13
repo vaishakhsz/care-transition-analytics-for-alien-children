@@ -60,7 +60,7 @@ Open the GitHub repository and click the Streamlit App link provided in the repo
 
 Example:
 
-https://care-transition-analytics.streamlit.app
+https://care-transition-analytics-for-alien-children-fz4bjnuzygv95kfgr.streamlit.app/
 
 --------------------------------------------------
 
